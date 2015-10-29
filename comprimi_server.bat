@@ -1,0 +1,1 @@
+\upx\upx.exe omnidokuserver.exe

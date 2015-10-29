@@ -1,0 +1,11 @@
+/uno
+/test
+/inpdap
+/nuova/due/ciccia
+/nuova/due
+/nuova
+/cart3
+/cart1/
+/cart1/cic
+/cart1
+/TEST

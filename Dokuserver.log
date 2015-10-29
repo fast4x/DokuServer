@@ -1,0 +1,322 @@
+127.0.0.1:49249 Stat Connected.
+127.0.0.1:49249 Sent 12/07/2013 12:20:03: 220 DokuServer ready.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:03: HOST [127.0.0.1]<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:03: 500 'HOST [127.0.0.1]': command not understood.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:03: USER ciccio<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:03: 331 User name okay, need password.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:03: PASS 123456<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 230 User logged in, proceed.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:04: FEAT<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 211-Extensions supported:<EOL> EPRT<EOL> EPSV<EOL> LIST -laT<EOL> MLSD<EOL> MLST size*;Type*;Modify*<EOL> MODE Z<EOL> OPTS MLST;MODE;UTF8<EOL> REST STREAM<EOL> SITE ZONE<EOL> SIZE<EOL> SPSV<EOL> STAT -laT<EOL> TVFS<EOL> UTF8<EOL> RFC 959 2389 2577 3659<EOL>211 End of extentions.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:04: OPTS UTF8 ON<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 200 Ok<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:04: TYPE A<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 200 Type set to A.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:04: GETUSERRIGHT<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 700-candeldir=True<EOL>700-candelfile=True<EOL>700-cancreadir=True<EOL>700-canupload=True<EOL>700-candownl=True<EOL>700 canchgdir=True<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:04: SYST<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 215 UNIX Type: L8<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:04: SITE ZONE<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 210 UTC+120<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:04: TYPE A<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 200 Type set to A.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:04: CWD /<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 250 CWD Command successful.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:04: PWD<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 257 "/" is working directory.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:04: PORT 127,0,0,1,192,98<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 200 PORT Command successful.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:04: MLSD<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:04: 226 Closing data connection.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:28: CWD cart1<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:28: 250 CWD Command successful.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:28: PWD<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:28: 257 "/cart1" is working directory.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:28: PORT 127,0,0,1,192,99<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:28: 200 PORT Command successful.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:28: MLSD<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:28: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:28: 226 Closing data connection.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:35: CWD cic<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:35: 250 CWD Command successful.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:35: PWD<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:35: 257 "/cart1/cic" is working directory.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:35: PORT 127,0,0,1,192,100<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:35: 200 PORT Command successful.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:35: MLSD<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:35: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:35: 226 Closing data connection.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:41: CDUP<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:41: 250 "/cart1/" is working directory.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:41: PWD<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:41: 257 "/cart1/" is working directory.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:41: PORT 127,0,0,1,192,101<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:41: 200 PORT Command successful.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:41: MLSD<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:41: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:41: 226 Closing data connection.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:47: CDUP<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:47: 250 "/" is working directory.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:47: PWD<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:47: 257 "/" is working directory.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:47: PORT 127,0,0,1,192,102<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:47: 200 PORT Command successful.<EOL>
+127.0.0.1:49249 Recv 12/07/2013 12:20:47: MLSD<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:47: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49249 Sent 12/07/2013 12:20:47: 226 Closing data connection.<EOL>
+127.0.0.1:49249 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:49173 Stat Connected.
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: USER ciccio<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 331 User name okay, need password.<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: PASS 123456<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 230 User logged in, proceed.<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: FEAT<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 211-Extensions supported:<EOL> CLNT<EOL> EPRT<EOL> EPSV<EOL> LIST -laT<EOL> MLSD<EOL> MLST size*;Type*;Modify*<EOL> MODE Z<EOL> OPTS MLST;MODE;UTF8<EOL> REST STREAM<EOL> SITE ZONE<EOL> SIZE<EOL> SPSV<EOL> STAT -laT<EOL> TVFS<EOL> UTF8<EOL> RFC 959 2389 2577 3659<EOL>211 End of extentions.<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: CLNT OMNIDokuClient<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 200 Noted.<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: OPTS UTF8 ON<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 200 Ok<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: TYPE A<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 200 Type set to A.<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: GETUSERRIGHT<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 700-candeldir=True<EOL>700-candelfile=True<EOL>700-cancreadir=True<EOL>700-canupload=True<EOL>700-candownl=True<EOL>700 canchgdir=True<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: SYST<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 215 UNIX Type: L8<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: SITE ZONE<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 210 UTC+120<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: TYPE A<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 200 Type set to A.<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: CWD /<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 250 CWD Command successful.<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: PWD<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 257 "/" is working directory.<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: PASV<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 227 Entering Passive Mode (127,0,0,1,2,187).<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:08: MLSD<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:08: 226 Closing data connection.<EOL>
+127.0.0.1:49173 Recv 13/08/2013 00:21:34: QUIT<EOL>
+127.0.0.1:49173 Sent 13/08/2013 00:21:34: 221 Goodbye.<EOL>
+127.0.0.1:49173 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:49389 Stat Connected.
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: USER ciccio<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 331 User name okay, need password.<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: PASS 123456<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 230 User logged in, proceed.<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: FEAT<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 211-Extensions supported:<EOL> CLNT<EOL> EPRT<EOL> EPSV<EOL> LIST -laT<EOL> MLSD<EOL> MLST size*;Type*;Modify*<EOL> MODE Z<EOL> OPTS MLST;MODE;UTF8<EOL> REST STREAM<EOL> SITE ZONE<EOL> SIZE<EOL> SPSV<EOL> STAT -laT<EOL> TVFS<EOL> UTF8<EOL> RFC 959 2389 2577 3659<EOL>211 End of extentions.<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: CLNT OMNIDokuClient<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 200 Noted.<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: OPTS UTF8 ON<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 200 Ok<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: TYPE A<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 200 Type set to A.<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: GETUSERRIGHT<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 700-candeldir=True<EOL>700-candelfile=True<EOL>700-cancreadir=True<EOL>700-canupload=True<EOL>700-candownl=True<EOL>700 canchgdir=True<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: SYST<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 215 UNIX Type: L8<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: SITE ZONE<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 210 UTC+120<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: TYPE A<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 200 Type set to A.<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: CWD /<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 250 CWD Command successful.<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: PWD<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 257 "/" is working directory.<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: PASV<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 227 Entering Passive Mode (127,0,0,1,2,187).<EOL>
+127.0.0.1:49389 Recv 09/10/2013 19:12:04: MLSD<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49389 Sent 09/10/2013 19:12:04: 226 Closing data connection.<EOL>
+127.0.0.1:49392 Stat Connected.
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: USER ciccio<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 331 User name okay, need password.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: PASS 123456<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 230 User logged in, proceed.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: FEAT<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 211-Extensions supported:<EOL> CLNT<EOL> EPRT<EOL> EPSV<EOL> LIST -laT<EOL> MLSD<EOL> MLST size*;Type*;Modify*<EOL> MODE Z<EOL> OPTS MLST;MODE;UTF8<EOL> REST STREAM<EOL> SITE ZONE<EOL> SIZE<EOL> SPSV<EOL> STAT -laT<EOL> TVFS<EOL> UTF8<EOL> RFC 959 2389 2577 3659<EOL>211 End of extentions.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: CLNT DokuClient<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 200 Noted.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: OPTS UTF8 ON<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 200 Ok<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: TYPE A<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 200 Type set to A.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: GETUSERRIGHT<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 700-candeldir=True<EOL>700-candelfile=True<EOL>700-cancreadir=True<EOL>700-canupload=True<EOL>700-candownl=True<EOL>700 canchgdir=True<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: SYST<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 215 UNIX Type: L8<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: SITE ZONE<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 210 UTC+120<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: TYPE A<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 200 Type set to A.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: CWD /<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 250 CWD Command successful.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: PWD<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 257 "/" is working directory.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: PASV<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 227 Entering Passive Mode (127,0,0,1,2,187).<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:14:30: MLSD<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:14:30: 226 Closing data connection.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:15:09: CWD /nuova/due/ciccia<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:15:09: 250 CWD Command successful.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:15:09: PWD<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:15:09: 257 "/nuova/due/ciccia" is working directory.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:15:09: PASV<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:15:09: 227 Entering Passive Mode (127,0,0,1,2,187).<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:15:09: MLSD<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:15:09: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:15:09: 226 Closing data connection.<EOL>
+127.0.0.1:49392 Recv 09/10/2013 19:15:13: QUIT<EOL>
+127.0.0.1:49392 Sent 09/10/2013 19:15:13: 221 Goodbye.<EOL>
+127.0.0.1:49392 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:49402 Stat Connected.
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: USER ciccio<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 331 User name okay, need password.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: PASS 123456<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 230 User logged in, proceed.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: FEAT<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 211-Extensions supported:<EOL> CLNT<EOL> EPRT<EOL> EPSV<EOL> LIST -laT<EOL> MLSD<EOL> MLST size*;Type*;Modify*<EOL> MODE Z<EOL> OPTS MLST;MODE;UTF8<EOL> REST STREAM<EOL> SITE ZONE<EOL> SIZE<EOL> SPSV<EOL> STAT -laT<EOL> TVFS<EOL> UTF8<EOL> RFC 959 2389 2577 3659<EOL>211 End of extentions.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: CLNT DokuClient<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 200 Noted.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: OPTS UTF8 ON<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 200 Ok<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: TYPE A<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 200 Type set to A.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: GETUSERRIGHT<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 700-candeldir=True<EOL>700-candelfile=True<EOL>700-cancreadir=True<EOL>700-canupload=True<EOL>700-candownl=True<EOL>700 canchgdir=True<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: SYST<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 215 UNIX Type: L8<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: SITE ZONE<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 210 UTC+120<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: TYPE A<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 200 Type set to A.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: CWD /<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 250 CWD Command successful.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: PWD<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 257 "/" is working directory.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: PASV<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 227 Entering Passive Mode (127,0,0,1,2,187).<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:17: MLSD<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:17: 226 Closing data connection.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:27: CDUP<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:27: 250 "/" is working directory.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:27: PWD<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:27: 257 "/" is working directory.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:27: PASV<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:27: 227 Entering Passive Mode (127,0,0,1,2,187).<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:27: MLSD<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:27: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:27: 226 Closing data connection.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:28: CDUP<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:28: 250 "/" is working directory.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:28: PWD<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:28: 257 "/" is working directory.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:28: PASV<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:28: 227 Entering Passive Mode (127,0,0,1,2,187).<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:28: MLSD<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:28: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:28: 226 Closing data connection.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:29: CDUP<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:29: 250 "/" is working directory.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:29: PWD<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:29: 257 "/" is working directory.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:29: PASV<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:29: 227 Entering Passive Mode (127,0,0,1,2,187).<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:29: MLSD<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:29: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:29: 226 Closing data connection.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:34: CWD /<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:34: 250 CWD Command successful.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:34: PWD<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:34: 257 "/" is working directory.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:34: PASV<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:34: 227 Entering Passive Mode (127,0,0,1,2,187).<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:34: MLSD<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:34: 125 File status okay; about to open data connection.<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:34: 226 Closing data connection.<EOL>
+127.0.0.1:49402 Recv 09/10/2013 19:31:36: QUIT<EOL>
+127.0.0.1:49402 Sent 09/10/2013 19:31:36: 221 Goodbye.<EOL>
+127.0.0.1:49402 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:48491 Stat Connected.
+127.0.0.1:48491 Sent 1-11-13 17:25:38: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:48491 Recv 1-11-13 17:25:38: USER anonymous<EOL>
+127.0.0.1:48491 Sent 1-11-13 17:25:38: 331 User name okay, need password.<EOL>
+127.0.0.1:48491 Recv 1-11-13 17:25:38: PASS anon@localhost<EOL>
+127.0.0.1:48491 Sent 1-11-13 17:25:38: 530 Not logged in.<EOL>
+127.0.0.1:48491 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:48494 Stat Connected.
+127.0.0.1:48494 Sent 1-11-13 17:27:49: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:48494 Recv 1-11-13 17:27:49: USER anonymous<EOL>
+127.0.0.1:48494 Sent 1-11-13 17:27:49: 331 User name okay, need password.<EOL>
+127.0.0.1:48494 Recv 1-11-13 17:27:49: PASS anon@localhost<EOL>
+127.0.0.1:48494 Sent 1-11-13 17:27:49: 530 Not logged in.<EOL>
+127.0.0.1:48494 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:44410 Stat Connected.
+127.0.0.1:44410 Sent 1-11-13 17:38:58: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:44410 Recv 1-11-13 17:38:58: USER anonymous<EOL>
+127.0.0.1:44410 Sent 1-11-13 17:38:58: 331 User name okay, need password.<EOL>
+127.0.0.1:44410 Recv 1-11-13 17:38:58: PASS anon@localhost<EOL>
+127.0.0.1:44410 Sent 1-11-13 17:38:58: 530 Not logged in.<EOL>
+127.0.0.1:44410 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:44411 Stat Connected.
+127.0.0.1:44411 Sent 1-11-13 17:39:04: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:44411 Recv 1-11-13 17:39:04: USER anonymous<EOL>
+127.0.0.1:44411 Sent 1-11-13 17:39:04: 331 User name okay, need password.<EOL>
+127.0.0.1:44411 Recv 1-11-13 17:39:04: PASS anon@localhost<EOL>
+127.0.0.1:44411 Sent 1-11-13 17:39:04: 530 Not logged in.<EOL>
+127.0.0.1:44411 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:44412 Stat Connected.
+127.0.0.1:44412 Sent 1-11-13 17:58:15: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:44412 Recv 1-11-13 17:58:15: USER anonymous<EOL>
+127.0.0.1:44412 Sent 1-11-13 17:58:15: 331 User name okay, need password.<EOL>
+127.0.0.1:44412 Recv 1-11-13 17:58:15: PASS anon@localhost<EOL>
+127.0.0.1:44412 Sent 1-11-13 17:58:15: 530 Not logged in.<EOL>
+127.0.0.1:44412 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:44413 Stat Connected.
+127.0.0.1:44413 Sent 1-11-13 17:58:20: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:44413 Recv 1-11-13 17:58:20: USER anonymous<EOL>
+127.0.0.1:44413 Sent 1-11-13 17:58:20: 331 User name okay, need password.<EOL>
+127.0.0.1:44413 Recv 1-11-13 17:58:20: PASS anon@localhost<EOL>
+127.0.0.1:44413 Sent 1-11-13 17:58:20: 530 Not logged in.<EOL>
+127.0.0.1:44413 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:44414 Stat Connected.
+127.0.0.1:44414 Sent 1-11-13 17:58:25: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:44414 Recv 1-11-13 17:58:25: USER anonymous<EOL>
+127.0.0.1:44414 Sent 1-11-13 17:58:25: 331 User name okay, need password.<EOL>
+127.0.0.1:44414 Recv 1-11-13 17:58:25: PASS anon@localhost<EOL>
+127.0.0.1:44414 Sent 1-11-13 17:58:25: 530 Not logged in.<EOL>
+127.0.0.1:44414 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:49392 Stat Connected.
+127.0.0.1:49392 Sent 01/11/2013 18:12:46: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:49392 Recv 01/11/2013 18:12:46: USER anonymous<EOL>
+127.0.0.1:49392 Sent 01/11/2013 18:12:46: 331 User name okay, need password.<EOL>
+127.0.0.1:49392 Recv 01/11/2013 18:12:46: PASS anon@localhost<EOL>
+127.0.0.1:49392 Sent 01/11/2013 18:12:46: 530 Not logged in.<EOL>
+127.0.0.1:49392 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
+127.0.0.1:49393 Stat Connected.
+127.0.0.1:49393 Sent 01/11/2013 18:15:17: 220 OMNIDokuServer ready.<EOL>
+127.0.0.1:49393 Recv 01/11/2013 18:15:17: USER anonymous<EOL>
+127.0.0.1:49393 Sent 01/11/2013 18:15:17: 331 User name okay, need password.<EOL>
+127.0.0.1:49393 Recv 01/11/2013 18:15:17: PASS anon@localhost<EOL>
+127.0.0.1:49393 Sent 01/11/2013 18:15:17: 530 Not logged in.<EOL>
+127.0.0.1:49393 Stat Disconnected.
+0.0.0.0:0 Stat Disconnected.
